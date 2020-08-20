@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(240, 209, 228);
+    margin: 0px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#preto{
+    background-color: black;
+}
+.preenchimento{
+    padding: 30px;
+}
+.icone{
+    width: 60px;
+    height: 60px;
+}
+
+#bicicleta{ 
+    float: left;    
+}
+
+#capa{
+    background-image: url(capa.jpg);
+    background-size: cover;
+    text-align: center;
+    width: auto;
+    height: 600px;
+    box-sizing: border-box;
+    padding-top: 150px;
+   
+}
+#tituloprincipal{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(226, 81, 125, 0.877);
+    text-shadow: 1.5px 1.5px black;
+    float: initial;
+    
+}
+#titulodois{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(226, 81, 125, 0.877);
+    text-shadow: 1.5px 1.5px black;
+    padding: 10px;
+    
+
+
+
+}
+
+
+
+
+
+
+
+#saiba-mais{
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
+    border: solid whitesmoke 3px;
+    padding: 10px;
+border-radius: 8px;
+
+}
+#saiba-mais:hover{
+    background-color: rgba(226, 81, 125, 0.877);
+
+
+}
+
+
+#parte1{
+    padding: 3%;
+
+}
+#parte2{
+    background-color: rgba(255, 255, 255, 0.774);
+    text-align: justify;
+    padding: 3%;
+
+}
+
+#video{
+    width:50%;
+    height:100px;
+    float: left;
+}
+
+#coluna2{
+    float: left;
+    padding: 1 2%;
+
+}
+.tres{
+    width: 20%;
+    float: left;
+    padding: 5%;
+}
+#logo{
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+}
+header{
+    background-color: black;
+    height:90px;
+}
+nav{
+    float: right;
+    margin: 0px;
+}
+ul{
+    list-style: none;
+
+}
+
+
+li{
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+li:hover{
+    background-color:rgba(226, 81, 125, 0.877);
+    height: 1px;
+    transition: 1s;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width:98,5%;
+    clear: both;
+    color: white;
+}
+#ods3{
+    
+    width: 100px;
+    height: 80px;
+    padding-left: 0px;
+
+
+}
+#menu{
+    visibility: hidden;
+}
+
+@media screen and (max-width:768px){
+
+    .tres, .logo, .coluna2, .icone{
+        display: block;
+        width: 90%;
+    }
+    #parte1 #parte2, #parte3, #ods3{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px 5% 0;
+        
+    }
+
+    }
+    #menu{
+        visibility: hidden;
+    }
